@@ -15,8 +15,7 @@ Module main
     Private _databaseCfgRemote As eleantec.Library.Utilities.DatabaseStructure
 
 
-    'Private Const _urlSync As String = "https://data.eleantec.local/_tasks/"
-    Private Const _urlSync As String = "https://data.eleantec.com/_tasks/"
+    Private Const _urlSync As String = "https://data.eleantec.local/_tasks/"
 
     Sub Main(ByVal args() As String)
         If args.Length <> 1 Then Return
